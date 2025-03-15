@@ -36,3 +36,5 @@ necessário manjar de html/css básico
 
 engordar o projeto: salvar em sessão (variáveis globais), em bancos de dados (save state do carrinho), navegação automática,
 autenticação e criptografia
+
+criar a build: npm run build
