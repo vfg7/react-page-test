@@ -1,0 +1,38 @@
+/ecommerce-app
+├── public/
+├── src/
+│   ├── assets/                 # Imagens e recursos estáticos
+│   ├── components/             # Componentes reutilizáveis (botões, inputs, etc.)
+│   ├── pages/                  # Páginas principais da aplicação
+│   │   ├── Login/              # Página de login
+│   │   ├── Products/           # Página de listagem de produtos
+│   │   ├── Checkout/           # Página de checkout
+│   │   └── Profile/            # Página de perfil do usuário
+│   ├── services/               # Serviços para comunicação com APIs
+│   ├── App.js                  # Componente principal da aplicação
+│   ├── index.js                # Ponto de entrada da aplicação
+│   └── routes.js               # Definição das rotas da aplicação
+├── package.json
+└── ...
+
+npx create-react-app ecommerce-app
+instalar react-router para navegação entre Páginas
+
+crie/edite routes e app.js para permitir a navegação. Index.js é o "main"
+
+em pages, crie as pastas das telas: login, produtos, checkout, Profile e o arquivo index.js
+html básico descritivo e css pra estilizar 
+
+a criação de cada tela tem que vir com a integração com o sistema de rotas do react
+
+npm start pra rodar
+default http://localhost:3000/
+
+comentar características únicas de react e angular e comparar
+uso de hooks (explicar brevemente)
+salvar em memória de tempo de execução
+gerenciar imports
+necessário manjar de html/css básico
+
+engordar o projeto: salvar em sessão (variáveis globais), em bancos de dados (save state do carrinho), navegação automática,
+autenticação e criptografia
